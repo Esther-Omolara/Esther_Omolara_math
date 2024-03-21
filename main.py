@@ -24,7 +24,7 @@ Z= permutation(5, 2)
 print(Z)
 
 def combination(n,k):
-    """Display the mathematical function permutation"""
+    """Display the mathematical function combination"""
     num = 1
     for value in range( n, n - k, -1):
         num = num*value
